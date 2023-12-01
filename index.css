@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Inconsolata ELight";
+    src: url("static/Inconsolata_SemiCondensed-Light.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Inconsolata";
+    src: url("static/Inconsolata_SemiCondensed-Medium.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Inconsolata Bold";
+    src: url("static/Inconsolata_SemiCondensed-Bold.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    font-family: "Inconsolata", "sans-serif";
+}
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(39, 39, 39);;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(68, 68, 68);;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(39, 39, 39);
+  }
+header{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+}
+.name, .github-text, .github-logo{
+    float: left;
+}
+.name-title{
+    font-family: "Inconsolata";
+    font-size: 38px;
+    margin-left: 20px;
+    height: 100%;
+}
+.github-text{
+    text-align: right;
+    margin-left: 60%;
+}
+.github{
+    display: flex;
+    align-items: center;
+}
+.github-title{
+    float: left;
+    font-size: 25px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.projects-container{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.project{
+    margin-bottom: 55px;
+}
+.project-title{
+    font-size: 37px;
+}
+.desc{
+    font-family: "Inconsolata ELight";
+    font-size: 24px;
+    margin-top: 25px;
+}
+button {
+    margin-top: 25px;
+    font-size: 19px;
+    background: var(--primary-color);
+    font-family: "Inconsolata Bold";
+    color: rgba(77,54,208,1);
+    padding: 0.7em 1.7em;
+    border-radius: 0.5em;
+    border: 1px solid #d4d4d4;
+    transition: all .3s;
+  }
+   button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
+.other{
+    width: 180px;
+}
